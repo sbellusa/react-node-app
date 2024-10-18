@@ -1,22 +1,16 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "NodeJS server",
-  "main": "dist/app.js",
+  "name": "myexpressapp",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "nodemon ./src/app.ts",
-    "start": "tsc && node dist/app.js",
-    "test": "echo \"Test not available\""
-  },
-  "author": "Alessandro Bellu",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/express": "^5.0.0",
-    "nodemon": "^3.1.7",
-    "typescript": "^5.6.3"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
