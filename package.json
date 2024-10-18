@@ -7,7 +7,7 @@
     "dev": "cd ./app/server/ && npm run dev",
     "start": "cd ./app/server/ && npm run start",
     "build": "cd ./app/frontend/ && npm run build && @powershell Copy-Item ./dist/* -Recurse -Force ../../build && cd ../server && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "author": "Alessandro Bellu",
   "license": "MIT"
