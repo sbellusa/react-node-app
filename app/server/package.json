@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "NodeJS server",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.ts",
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Test not available\""
+  },
+  "author": "Alessandro Bellu",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "typescript": "^5.6.3",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
