@@ -7,7 +7,7 @@
     "target": "es6",
     "moduleResolution": "node",
     "sourceMap": true,
-    "outDir": "dist"
+    "outDir": "app/server/dist"
   },
   "lib": ["es2015"]
 }
