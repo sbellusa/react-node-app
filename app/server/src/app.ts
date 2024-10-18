@@ -1,10 +1,11 @@
 import express from 'express';
 const app = express();
 const path = require('path');
+const cors = require('cors');
 const port = 3000;
 
 app.use(express.static(path.join(__dirname, '../../../build')));
-
+app.use(cors());
 // app.get('/', (req, res) => {
 //   res.send('Hello World!');
 // });
